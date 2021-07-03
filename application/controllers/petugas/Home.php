@@ -8,7 +8,7 @@ class Home extends MY_Controller
     {
         parent::__construct();
         $this->load->database();
-        $this->load->model('tbl_timeline_m');
+        
         
         $this->check_login();
         if ($this->session->userdata('id_role') != "2") {
@@ -18,8 +18,7 @@ class Home extends MY_Controller
 
     public function index()
     {
-        $data['total']= $this->tbl_timeline_m->tampil_total();
         
-        $this->template->load('layouts/petugas_template', 'petugas/dashboard', $data);
+        $this->template->load('layouts/petugas_template', 'petugas/dashboard');
     }
 }
