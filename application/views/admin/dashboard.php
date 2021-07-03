@@ -3,7 +3,7 @@
     <div class="alert alert-success alert-dismissible">
       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
       <h4>Hi, Admin. Selamat Datang di E-SatuPintu!</h4>
-      Elektronik Surat Tugas.aa
+      Elektronik Surat Tugas.
     </div>
     <div class="row">
       <!-- ./col -->

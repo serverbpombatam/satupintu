@@ -18,6 +18,6 @@ class Home extends MY_Controller
     public function index()
     {
         
-        $this->template->load('layouts/admin_template', 'admin/dashboard';
+        $this->template->load('layouts/admin_template', 'admin/dashboard');
     }
 }
